@@ -1,0 +1,21 @@
+PODS:
+  - Bugsnag (4.0.7):
+    - Bugsnag/no-arc (= 4.0.7)
+  - Bugsnag/no-arc (4.0.7)
+  - Expecta (0.4.2)
+  - IKCore (1.1)
+  - Specta (0.5.0)
+
+DEPENDENCIES:
+  - Bugsnag
+  - Expecta (~> 0.3)
+  - IKCore (~> 1.0)
+  - Specta (~> 0.5)
+
+SPEC CHECKSUMS:
+  Bugsnag: 5861d8519d30063abe7b3fcdcf4114a6dddab27a
+  Expecta: 78b4e8b0c8291fa4524d7f74016b6065c2e391ec
+  IKCore: aa99c29b4363cabaa4e629d592ca90dd9a9ad1df
+  Specta: eb90708ed77569bbda089f8ead10bb99b8e9489e
+
+COCOAPODS: 0.37.1

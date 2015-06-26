@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		321B83481B3DC69F00A7C923 /* IKLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B83471B3DC69F00A7C923 /* IKLoggerTests.m */; };
+		321B83751B3DC76B00A7C923 /* BugsnagLogHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B83551B3DC76B00A7C923 /* BugsnagLogHandler.m */; };
+		321B83761B3DC76B00A7C923 /* ConsoleLogHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B83581B3DC76B00A7C923 /* ConsoleLogHandler.m */; };
+		321B83771B3DC76B00A7C923 /* FileArchiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B835B1B3DC76B00A7C923 /* FileArchiver.m */; };
+		321B83781B3DC76B00A7C923 /* FileLogHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B835D1B3DC76B00A7C923 /* FileLogHandler.m */; };
+		321B83791B3DC76B00A7C923 /* FileSizeWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B835F1B3DC76B00A7C923 /* FileSizeWatcher.m */; };
+		321B837A1B3DC76B00A7C923 /* LogFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B83611B3DC76B00A7C923 /* LogFileManager.m */; };
+		321B837B1B3DC76B00A7C923 /* IKLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B83631B3DC76B00A7C923 /* IKLog.m */; };
+		321B837C1B3DC76B00A7C923 /* IKLogEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B83651B3DC76B00A7C923 /* IKLogEntry.m */; };
+		321B837D1B3DC76B00A7C923 /* IKLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B83671B3DC76B00A7C923 /* IKLogger.m */; };
+		321B837E1B3DC76B00A7C923 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B836B1B3DC76B00A7C923 /* AppDelegate.m */; };
+		321B837F1B3DC76B00A7C923 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 321B836C1B3DC76B00A7C923 /* LaunchScreen.xib */; };
+		321B83801B3DC76B00A7C923 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321B836E1B3DC76B00A7C923 /* Main.storyboard */; };
+		321B83811B3DC76B00A7C923 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 321B83701B3DC76B00A7C923 /* Images.xcassets */; };
+		321B83831B3DC76B00A7C923 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B83721B3DC76B00A7C923 /* main.m */; };
+		321B83841B3DC76B00A7C923 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 321B83741B3DC76B00A7C923 /* ViewController.m */; };
+		AB6D8A4C424B57F4F7AE1D44 /* libPods-IKLoggerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 127EFD2A613CFD1EF4999F8E /* libPods-IKLoggerTests.a */; };
+		B66FA22F00BA3B64C32806C4 /* libPods-IKLogger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB871505C3CF14A203D3B5A /* libPods-IKLogger.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		321B83421B3DC69F00A7C923 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 321B83201B3DC69E00A7C923 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 321B83271B3DC69E00A7C923;
+			remoteInfo = IKLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		127EFD2A613CFD1EF4999F8E /* libPods-IKLoggerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IKLoggerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		321B83281B3DC69E00A7C923 /* IKLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IKLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		321B83411B3DC69F00A7C923 /* IKLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IKLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		321B83461B3DC69F00A7C923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		321B83471B3DC69F00A7C923 /* IKLoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IKLoggerTests.m; sourceTree = "<group>"; };
+		321B83541B3DC76B00A7C923 /* BugsnagLogHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BugsnagLogHandler.h; sourceTree = "<group>"; };
+		321B83551B3DC76B00A7C923 /* BugsnagLogHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BugsnagLogHandler.m; sourceTree = "<group>"; };
+		321B83571B3DC76B00A7C923 /* ConsoleLogHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsoleLogHandler.h; sourceTree = "<group>"; };
+		321B83581B3DC76B00A7C923 /* ConsoleLogHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsoleLogHandler.m; sourceTree = "<group>"; };
+		321B835A1B3DC76B00A7C923 /* FileArchiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileArchiver.h; sourceTree = "<group>"; };
+		321B835B1B3DC76B00A7C923 /* FileArchiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileArchiver.m; sourceTree = "<group>"; };
+		321B835C1B3DC76B00A7C923 /* FileLogHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileLogHandler.h; sourceTree = "<group>"; };
+		321B835D1B3DC76B00A7C923 /* FileLogHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileLogHandler.m; sourceTree = "<group>"; };
+		321B835E1B3DC76B00A7C923 /* FileSizeWatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileSizeWatcher.h; sourceTree = "<group>"; };
+		321B835F1B3DC76B00A7C923 /* FileSizeWatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileSizeWatcher.m; sourceTree = "<group>"; };
+		321B83601B3DC76B00A7C923 /* LogFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogFileManager.h; sourceTree = "<group>"; };
+		321B83611B3DC76B00A7C923 /* LogFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogFileManager.m; sourceTree = "<group>"; };
+		321B83621B3DC76B00A7C923 /* IKLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKLog.h; sourceTree = "<group>"; };
+		321B83631B3DC76B00A7C923 /* IKLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKLog.m; sourceTree = "<group>"; };
+		321B83641B3DC76B00A7C923 /* IKLogEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKLogEntry.h; sourceTree = "<group>"; };
+		321B83651B3DC76B00A7C923 /* IKLogEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKLogEntry.m; sourceTree = "<group>"; };
+		321B83661B3DC76B00A7C923 /* IKLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKLogger.h; sourceTree = "<group>"; };
+		321B83671B3DC76B00A7C923 /* IKLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKLogger.m; sourceTree = "<group>"; };
+		321B83681B3DC76B00A7C923 /* IKLogHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKLogHandler.h; sourceTree = "<group>"; };
+		321B836A1B3DC76B00A7C923 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		321B836B1B3DC76B00A7C923 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		321B836D1B3DC76B00A7C923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		321B836F1B3DC76B00A7C923 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		321B83701B3DC76B00A7C923 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		321B83711B3DC76B00A7C923 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		321B83721B3DC76B00A7C923 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		321B83731B3DC76B00A7C923 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		321B83741B3DC76B00A7C923 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3FB871505C3CF14A203D3B5A /* libPods-IKLogger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IKLogger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59EABF41DBACBC196C862300 /* Pods-IKLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IKLogger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IKLogger/Pods-IKLogger.debug.xcconfig"; sourceTree = "<group>"; };
+		65335AD392FD5D5AA67A4620 /* Pods-IKLoggerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IKLoggerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IKLoggerTests/Pods-IKLoggerTests.release.xcconfig"; sourceTree = "<group>"; };
+		74D47243079E931592E0C01D /* Pods-IKLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IKLogger.release.xcconfig"; path = "Pods/Target Support Files/Pods-IKLogger/Pods-IKLogger.release.xcconfig"; sourceTree = "<group>"; };
+		771920F981B748528AED6BCC /* Pods-IKLoggerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IKLoggerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IKLoggerTests/Pods-IKLoggerTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		321B83251B3DC69E00A7C923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66FA22F00BA3B64C32806C4 /* libPods-IKLogger.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		321B833E1B3DC69F00A7C923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB6D8A4C424B57F4F7AE1D44 /* libPods-IKLoggerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		321B831F1B3DC69E00A7C923 = {
+			isa = PBXGroup;
+			children = (
+				321B83511B3DC76B00A7C923 /* IKLogger */,
+				321B83691B3DC76B00A7C923 /* IKLoggerUI */,
+				321B83441B3DC69F00A7C923 /* IKLoggerTests */,
+				321B83291B3DC69E00A7C923 /* Products */,
+				A47F0D5A4CA8DEA6ACC83E40 /* Pods */,
+				60E70B10AF4A7E5CD9B1ACFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		321B83291B3DC69E00A7C923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				321B83281B3DC69E00A7C923 /* IKLogger.app */,
+				321B83411B3DC69F00A7C923 /* IKLoggerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		321B83441B3DC69F00A7C923 /* IKLoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				321B83471B3DC69F00A7C923 /* IKLoggerTests.m */,
+				321B83451B3DC69F00A7C923 /* Supporting Files */,
+			);
+			path = IKLoggerTests;
+			sourceTree = "<group>";
+		};
+		321B83451B3DC69F00A7C923 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				321B83461B3DC69F00A7C923 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		321B83511B3DC76B00A7C923 /* IKLogger */ = {
+			isa = PBXGroup;
+			children = (
+				321B83521B3DC76B00A7C923 /* Handlers */,
+				321B83621B3DC76B00A7C923 /* IKLog.h */,
+				321B83631B3DC76B00A7C923 /* IKLog.m */,
+				321B83641B3DC76B00A7C923 /* IKLogEntry.h */,
+				321B83651B3DC76B00A7C923 /* IKLogEntry.m */,
+				321B83661B3DC76B00A7C923 /* IKLogger.h */,
+				321B83671B3DC76B00A7C923 /* IKLogger.m */,
+				321B83681B3DC76B00A7C923 /* IKLogHandler.h */,
+			);
+			path = IKLogger;
+			sourceTree = "<group>";
+		};
+		321B83521B3DC76B00A7C923 /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				321B83531B3DC76B00A7C923 /* Bugsnag */,
+				321B83561B3DC76B00A7C923 /* Console */,
+				321B83591B3DC76B00A7C923 /* File */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		321B83531B3DC76B00A7C923 /* Bugsnag */ = {
+			isa = PBXGroup;
+			children = (
+				321B83541B3DC76B00A7C923 /* BugsnagLogHandler.h */,
+				321B83551B3DC76B00A7C923 /* BugsnagLogHandler.m */,
+			);
+			path = Bugsnag;
+			sourceTree = "<group>";
+		};
+		321B83561B3DC76B00A7C923 /* Console */ = {
+			isa = PBXGroup;
+			children = (
+				321B83571B3DC76B00A7C923 /* ConsoleLogHandler.h */,
+				321B83581B3DC76B00A7C923 /* ConsoleLogHandler.m */,
+			);
+			path = Console;
+			sourceTree = "<group>";
+		};
+		321B83591B3DC76B00A7C923 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				321B835A1B3DC76B00A7C923 /* FileArchiver.h */,
+				321B835B1B3DC76B00A7C923 /* FileArchiver.m */,
+				321B835C1B3DC76B00A7C923 /* FileLogHandler.h */,
+				321B835D1B3DC76B00A7C923 /* FileLogHandler.m */,
+				321B835E1B3DC76B00A7C923 /* FileSizeWatcher.h */,
+				321B835F1B3DC76B00A7C923 /* FileSizeWatcher.m */,
+				321B83601B3DC76B00A7C923 /* LogFileManager.h */,
+				321B83611B3DC76B00A7C923 /* LogFileManager.m */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		321B83691B3DC76B00A7C923 /* IKLoggerUI */ = {
+			isa = PBXGroup;
+			children = (
+				321B836A1B3DC76B00A7C923 /* AppDelegate.h */,
+				321B836B1B3DC76B00A7C923 /* AppDelegate.m */,
+				321B836C1B3DC76B00A7C923 /* LaunchScreen.xib */,
+				321B836E1B3DC76B00A7C923 /* Main.storyboard */,
+				321B83701B3DC76B00A7C923 /* Images.xcassets */,
+				321B83711B3DC76B00A7C923 /* Info.plist */,
+				321B83721B3DC76B00A7C923 /* main.m */,
+				321B83731B3DC76B00A7C923 /* ViewController.h */,
+				321B83741B3DC76B00A7C923 /* ViewController.m */,
+			);
+			path = IKLoggerUI;
+			sourceTree = "<group>";
+		};
+		60E70B10AF4A7E5CD9B1ACFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FB871505C3CF14A203D3B5A /* libPods-IKLogger.a */,
+				127EFD2A613CFD1EF4999F8E /* libPods-IKLoggerTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A47F0D5A4CA8DEA6ACC83E40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59EABF41DBACBC196C862300 /* Pods-IKLogger.debug.xcconfig */,
+				74D47243079E931592E0C01D /* Pods-IKLogger.release.xcconfig */,
+				771920F981B748528AED6BCC /* Pods-IKLoggerTests.debug.xcconfig */,
+				65335AD392FD5D5AA67A4620 /* Pods-IKLoggerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		321B83271B3DC69E00A7C923 /* IKLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 321B834B1B3DC69F00A7C923 /* Build configuration list for PBXNativeTarget "IKLogger" */;
+			buildPhases = (
+				CF6FBA4E051DB1EE5D651EF7 /* Check Pods Manifest.lock */,
+				321B83241B3DC69E00A7C923 /* Sources */,
+				321B83251B3DC69E00A7C923 /* Frameworks */,
+				321B83261B3DC69E00A7C923 /* Resources */,
+				805F27441185D43F8BD0E75A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IKLogger;
+			productName = IKLogger;
+			productReference = 321B83281B3DC69E00A7C923 /* IKLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		321B83401B3DC69F00A7C923 /* IKLoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 321B834E1B3DC69F00A7C923 /* Build configuration list for PBXNativeTarget "IKLoggerTests" */;
+			buildPhases = (
+				44EA83BF19C5020B8DD027FF /* Check Pods Manifest.lock */,
+				321B833D1B3DC69F00A7C923 /* Sources */,
+				321B833E1B3DC69F00A7C923 /* Frameworks */,
+				321B833F1B3DC69F00A7C923 /* Resources */,
+				0B46D030236CA57CB3948DC5 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				321B83431B3DC69F00A7C923 /* PBXTargetDependency */,
+			);
+			name = IKLoggerTests;
+			productName = IKLoggerTests;
+			productReference = 321B83411B3DC69F00A7C923 /* IKLoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		321B83201B3DC69E00A7C923 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Mustard;
+				TargetAttributes = {
+					321B83271B3DC69E00A7C923 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					321B83401B3DC69F00A7C923 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 321B83271B3DC69E00A7C923;
+					};
+				};
+			};
+			buildConfigurationList = 321B83231B3DC69E00A7C923 /* Build configuration list for PBXProject "IKLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 321B831F1B3DC69E00A7C923;
+			productRefGroup = 321B83291B3DC69E00A7C923 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				321B83271B3DC69E00A7C923 /* IKLogger */,
+				321B83401B3DC69F00A7C923 /* IKLoggerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		321B83261B3DC69E00A7C923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321B83811B3DC76B00A7C923 /* Images.xcassets in Resources */,
+				321B837F1B3DC76B00A7C923 /* LaunchScreen.xib in Resources */,
+				321B83801B3DC76B00A7C923 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		321B833F1B3DC69F00A7C923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B46D030236CA57CB3948DC5 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IKLoggerTests/Pods-IKLoggerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44EA83BF19C5020B8DD027FF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		805F27441185D43F8BD0E75A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IKLogger/Pods-IKLogger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF6FBA4E051DB1EE5D651EF7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		321B83241B3DC69E00A7C923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321B837A1B3DC76B00A7C923 /* LogFileManager.m in Sources */,
+				321B837B1B3DC76B00A7C923 /* IKLog.m in Sources */,
+				321B837D1B3DC76B00A7C923 /* IKLogger.m in Sources */,
+				321B83751B3DC76B00A7C923 /* BugsnagLogHandler.m in Sources */,
+				321B837E1B3DC76B00A7C923 /* AppDelegate.m in Sources */,
+				321B837C1B3DC76B00A7C923 /* IKLogEntry.m in Sources */,
+				321B83841B3DC76B00A7C923 /* ViewController.m in Sources */,
+				321B83791B3DC76B00A7C923 /* FileSizeWatcher.m in Sources */,
+				321B83771B3DC76B00A7C923 /* FileArchiver.m in Sources */,
+				321B83761B3DC76B00A7C923 /* ConsoleLogHandler.m in Sources */,
+				321B83831B3DC76B00A7C923 /* main.m in Sources */,
+				321B83781B3DC76B00A7C923 /* FileLogHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		321B833D1B3DC69F00A7C923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				321B83481B3DC69F00A7C923 /* IKLoggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		321B83431B3DC69F00A7C923 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 321B83271B3DC69E00A7C923 /* IKLogger */;
+			targetProxy = 321B83421B3DC69F00A7C923 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		321B836C1B3DC76B00A7C923 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				321B836D1B3DC76B00A7C923 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		321B836E1B3DC76B00A7C923 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				321B836F1B3DC76B00A7C923 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		321B83491B3DC69F00A7C923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		321B834A1B3DC69F00A7C923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		321B834C1B3DC69F00A7C923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59EABF41DBACBC196C862300 /* Pods-IKLogger.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/IKLoggerUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		321B834D1B3DC69F00A7C923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74D47243079E931592E0C01D /* Pods-IKLogger.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/IKLoggerUI/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		321B834F1B3DC69F00A7C923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 771920F981B748528AED6BCC /* Pods-IKLoggerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IKLoggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IKLogger.app/IKLogger";
+			};
+			name = Debug;
+		};
+		321B83501B3DC69F00A7C923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65335AD392FD5D5AA67A4620 /* Pods-IKLoggerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IKLoggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IKLogger.app/IKLogger";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		321B83231B3DC69E00A7C923 /* Build configuration list for PBXProject "IKLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				321B83491B3DC69F00A7C923 /* Debug */,
+				321B834A1B3DC69F00A7C923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		321B834B1B3DC69F00A7C923 /* Build configuration list for PBXNativeTarget "IKLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				321B834C1B3DC69F00A7C923 /* Debug */,
+				321B834D1B3DC69F00A7C923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		321B834E1B3DC69F00A7C923 /* Build configuration list for PBXNativeTarget "IKLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				321B834F1B3DC69F00A7C923 /* Debug */,
+				321B83501B3DC69F00A7C923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 321B83201B3DC69E00A7C923 /* Project object */;
+}
